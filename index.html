@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Мобильно-ориентированное приложение</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">MobileApp</div>
+        <nav class="main-nav">
+            <a href="#screen1">Главная</a>
+            <a href="#screen2">Услуги</a>
+            <a href="#screen3">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+
+        <section id="screen1" class="screen screen-hero">
+            <div class="screen-content">
+                <h1>Современные мобильные решения</h1>
+                <p>Разработка адаптивных интерфейсов по стратегии Mobile First.</p>
+                <button class="btn">Подробнее</button>
+            </div>
+        </section>
+
+        <section id="screen2" class="screen screen-features">
+            <h2>Наши услуги</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <h3>UI/UX Дизайн</h3>
+                    <p>Проектирование удобных интерфейсов под экраны смартфонов.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Адаптивная верстка</h3>
+                    <p>Качественный код с использованием Flexbox и относительных единиц.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Оптимизация</h3>
+                    <p>Минификация и быстрая загрузка веб-страниц.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="screen3" class="screen screen-contacts">
+            <h2>Оставить заявку</h2>
+            <form class="contact-form" onsubmit="return false;">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="email" placeholder="Ваш Email" required>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Лабораторная работа №5. Все права защищены.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
